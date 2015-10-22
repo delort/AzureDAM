@@ -1,5 +1,5 @@
 # Digital Asset Management in Azure
-This is the demo code from my presentation "Hyperscal Digital Asset Management in Azure". 
+This is the demo code from my presentation "Hyperscal Digital Asset Management in Azure" at TechDays Sweden October 22nd 2015. 
 
 To run this demo you will need to setup the following: 
 
