@@ -1,0 +1,40 @@
+﻿{
+                "name":"testindex",              
+                "fields": {
+                    {"name":"id", "type":"Edm.String", 
+                      "key":"true", "retrievable":"true",
+                      "filterable":"false","sortable":"false", 
+                      "facetable":"false", "searchable":"true"
+                    },
+                    {"name":"Name", "type":"Edm.String", 
+                      "key":"false", "retrievable":"true",
+                      "filterable":"false","sortable":"true", 
+                      "facetable":"false", "searchable":"true"
+                    },
+                    {"name":"Description", "type":"Edm.String", 
+                      "key":"false", "retrievable":"true",
+                      "filterable":"false","sortable":"true", 
+                      "facetable":"false", "searchable":"true"
+                    }, 
+                    {"name":"Author", "type":"Edm.String", 
+                      "key":"false", "retrievable":"true",
+                      "filterable":"false","sortable":"true", 
+                      "facetable":"true", "searchable":"true"
+                    },
+                    {"name":"Category", "type":"Edm.String", 
+                      "key":"false", "retrievable":"false",
+                      "filterable":"false","sortable":"true", 
+                      "facetable":"true", "searchable":"true"
+                    },
+                    {"name":"ContentType", "type":"Edm.String", 
+                      "key":"false", "retrievable":"false",
+                      "filterable":"false","sortable":"false", 
+                      "facetable":"false", "searchable":"true"
+                    },
+                    {"name":"Url", "type":"Edm.String", 
+                      "key":"false", "retrievable":"true",
+                      "filterable":"false","sortable":"true", 
+                      "facetable":"true", "searchable":"true"
+                    }
+                }
+            }

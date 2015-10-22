@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Documents", "1. Documents", "{0311BFA6-FC6E-4403-9C7F-EDE065F27AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Solution", "2. Solution", "{040E6FC6-D0CF-49C4-98E5-93002C10EC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Web", "Avanade.AzureDAM.Web\Avanade.AzureDAM.Web.csproj", "{E341AB00-7129-4F13-BCBE-182C24AC3A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{968F2114-5EF2-48DB-8E44-86EE1D4D290C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{74AF5DE6-5DD1-4CC2-8258-8D8628930BD8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AvanadeAzureDAMWeb-WAWS-dev.json = PublishScripts\Configurations\AvanadeAzureDAMWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Commands", "Avanade.AzureDAM.Commands\Avanade.AzureDAM.Commands.csproj", "{CE94BEB1-B76A-4975-9E8C-281F1C3E6947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Models", "Avanade.AzureDAM.Models\Avanade.AzureDAM.Models.csproj", "{95598A41-7634-4276-9DEA-FF57A4C1A37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Queries", "Avanade.AzureDAM.Queries\Avanade.AzureDAM.Queries.csproj", "{D826B447-E871-4A9E-8573-F0ECCCC18CF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test data setup", "3. Test data setup", "{529276F2-32A8-4C68-89AA-3F453B4104D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Powershell", "4. Powershell", "{0B0DFBC0-61A2-4CF7-98D3-E959DD2C5663}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShell Scripts\create-queues.ps1 = PowerShell Scripts\create-queues.ps1
+		PowerShell Scripts\publish-testmessage.ps1 = PowerShell Scripts\publish-testmessage.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessageBus", "MessageBus", "{F6644F02-A3A5-45CF-8FDB-131F26E3C906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{63E0348D-F14E-4082-8E79-64606E16697E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{2315051D-0286-4620-9C3B-5334561FA797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Messages", "Avanade.AzureDAM.Messages\Avanade.AzureDAM.Messages.csproj", "{78DBC298-57BF-410C-A1C6-7D28681422F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.MessageHandlers", "Avanade.AzureDAM.MessageHandlers\Avanade.AzureDAM.MessageHandlers.csproj", "{38543D7C-0BCC-4321-A6DD-50A802A6246D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.Integrations", "Avanade.AzureDAM.Integrations\Avanade.AzureDAM.Integrations.csproj", "{B211AE33-8E66-4C15-BB49-2C5858C6CC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.DemoSetup", "Avanade.AzureDAM.DemoSetup\Avanade.AzureDAM.DemoSetup.csproj", "{9CF3E438-910D-4754-8ABD-673BFC80E5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.MessageBus", "Avanade.AzureDAM.MessageBus\Avanade.AzureDAM.MessageBus.csproj", "{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.AzureDAM.API", "Avanade.AzureDAM.API\Avanade.AzureDAM.API.csproj", "{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E341AB00-7129-4F13-BCBE-182C24AC3A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E341AB00-7129-4F13-BCBE-182C24AC3A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E341AB00-7129-4F13-BCBE-182C24AC3A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E341AB00-7129-4F13-BCBE-182C24AC3A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE94BEB1-B76A-4975-9E8C-281F1C3E6947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE94BEB1-B76A-4975-9E8C-281F1C3E6947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE94BEB1-B76A-4975-9E8C-281F1C3E6947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE94BEB1-B76A-4975-9E8C-281F1C3E6947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95598A41-7634-4276-9DEA-FF57A4C1A37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95598A41-7634-4276-9DEA-FF57A4C1A37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95598A41-7634-4276-9DEA-FF57A4C1A37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95598A41-7634-4276-9DEA-FF57A4C1A37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D826B447-E871-4A9E-8573-F0ECCCC18CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D826B447-E871-4A9E-8573-F0ECCCC18CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D826B447-E871-4A9E-8573-F0ECCCC18CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D826B447-E871-4A9E-8573-F0ECCCC18CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DBC298-57BF-410C-A1C6-7D28681422F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DBC298-57BF-410C-A1C6-7D28681422F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DBC298-57BF-410C-A1C6-7D28681422F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DBC298-57BF-410C-A1C6-7D28681422F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38543D7C-0BCC-4321-A6DD-50A802A6246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38543D7C-0BCC-4321-A6DD-50A802A6246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38543D7C-0BCC-4321-A6DD-50A802A6246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38543D7C-0BCC-4321-A6DD-50A802A6246D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B211AE33-8E66-4C15-BB49-2C5858C6CC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B211AE33-8E66-4C15-BB49-2C5858C6CC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B211AE33-8E66-4C15-BB49-2C5858C6CC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B211AE33-8E66-4C15-BB49-2C5858C6CC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF3E438-910D-4754-8ABD-673BFC80E5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF3E438-910D-4754-8ABD-673BFC80E5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF3E438-910D-4754-8ABD-673BFC80E5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF3E438-910D-4754-8ABD-673BFC80E5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E341AB00-7129-4F13-BCBE-182C24AC3A27} = {2315051D-0286-4620-9C3B-5334561FA797}
+		{74AF5DE6-5DD1-4CC2-8258-8D8628930BD8} = {968F2114-5EF2-48DB-8E44-86EE1D4D290C}
+		{CE94BEB1-B76A-4975-9E8C-281F1C3E6947} = {63E0348D-F14E-4082-8E79-64606E16697E}
+		{95598A41-7634-4276-9DEA-FF57A4C1A37D} = {63E0348D-F14E-4082-8E79-64606E16697E}
+		{D826B447-E871-4A9E-8573-F0ECCCC18CF5} = {63E0348D-F14E-4082-8E79-64606E16697E}
+		{F6644F02-A3A5-45CF-8FDB-131F26E3C906} = {040E6FC6-D0CF-49C4-98E5-93002C10EC6A}
+		{63E0348D-F14E-4082-8E79-64606E16697E} = {040E6FC6-D0CF-49C4-98E5-93002C10EC6A}
+		{2315051D-0286-4620-9C3B-5334561FA797} = {040E6FC6-D0CF-49C4-98E5-93002C10EC6A}
+		{78DBC298-57BF-410C-A1C6-7D28681422F2} = {63E0348D-F14E-4082-8E79-64606E16697E}
+		{38543D7C-0BCC-4321-A6DD-50A802A6246D} = {F6644F02-A3A5-45CF-8FDB-131F26E3C906}
+		{B211AE33-8E66-4C15-BB49-2C5858C6CC6B} = {63E0348D-F14E-4082-8E79-64606E16697E}
+		{9CF3E438-910D-4754-8ABD-673BFC80E5A1} = {529276F2-32A8-4C68-89AA-3F453B4104D9}
+		{B22CB8D5-85B9-42EA-9DBB-4ECC77317AC2} = {F6644F02-A3A5-45CF-8FDB-131F26E3C906}
+		{AD3D91A7-CC82-4B9E-9DDA-46DEBD0A5599} = {2315051D-0286-4620-9C3B-5334561FA797}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+﻿@model Avanade.AzureDAM.Web.NewAssetViewModel 
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Upload new asset";
+}
+@section scripts
+{
+    <script type="text/javascript" src="@Url.Content("/Scripts/AssetUpload.js")"></script>
+}
+
+<h2>Upload new asset </h2>
+
+@using (Html.BeginForm("Upload", "Assets", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken();
+
+    <div class="form-horizontal">
+        <hr />
+
+        <div class="form-group">
+            <label for="name" class="col-md-2 control-label">Name: </label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+            </div>
+        </div>
+        <div class="form-group">
+
+            <label for="description" class="col-md-2 control-label">Description:</label>
+            <div class="col-md-10">                
+                <textarea rows="5" class="form-control" id="description" name="description"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            <label for="assetToUpload" class="col-md-2 control-label">File: </label>          
+            
+            <div class="input-group col-md2">
+                <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                        Browse&hellip; <input type="file" name="assetToUpload" multiple>
+                    </span>
+                </span>
+                <input type="text" class="form-control" readonly>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

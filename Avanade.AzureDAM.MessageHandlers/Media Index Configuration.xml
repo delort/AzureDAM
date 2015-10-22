@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration version="2.0">
+  <input>
+  </input>
+  <settings>
+  </settings>
+  <features>
+    <feature name="ASR" >
+      <settings>
+        <add key="Language" value="$language$"/>
+        <add key="CaptionFormats" value="ttml"/>
+        <add key="GenerateAIB" value="false" />
+        <add key="GenerateKeywords" value="true" />
+      </settings>
+    </feature>
+  </features>
+</configuration>

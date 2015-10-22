@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<rss xmlns:mavis="http://www.microsoft.com/dtds/mavis/" version="2.0">
+  <channel>
+    <mavis:keywords>machine,technique,database,components</mavis:keywords>
+    <items>
+      <mavis:keyword AvgConfidence="0.90" Count="2" Content="machine">
+        <mavis:keyworddetail Offset="23.27" Confidence="0.80"/>
+        <mavis:keyworddetail Offset="33.22" Confidence="1.00"/>
+      </mavis:keyword>
+      <mavis:keyword AvgConfidence="1.00" Count="1" Content="technique">
+        <mavis:keyworddetail Offset="25.98" Confidence="1.00"/>
+      </mavis:keyword>
+      <mavis:keyword AvgConfidence="0.90" Count="1" Content="database">
+        <mavis:keyworddetail Offset="34.24" Confidence="0.90"/>
+      </mavis:keyword>
+      <mavis:keyword AvgConfidence="0.80" Count="1" Content="components">
+        <mavis:keyworddetail Offset="39.2" Confidence="0.80"/>
+      </mavis:keyword>
+    </items>
+  </channel>
+</rss>
